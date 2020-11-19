@@ -10,6 +10,8 @@ cd ../elasticsearch-sql
 ./build
 ./start
 cd tutorial
+
+# Wait a few seconds
 ./init_data
 ./login
 ```
@@ -20,6 +22,8 @@ python3 setup.py install
 cd ../opendistro-for-elasticsearch 
 ./start
 cd tutorial
+
+# Wait a few seconds
 ./init_data
 ./login
 ```
