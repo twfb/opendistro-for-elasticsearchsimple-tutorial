@@ -4,7 +4,9 @@ You can choose to install one of "elasticsearch-sql" and "opendistro-for-elastic
 ## Install
 ### elasticsearch-sql
 ```
-cd elasticsearch-sql
+cd ./sql-cli
+python3 setup.py install
+cd ../elasticsearch-sql
 ./build
 ./start
 cd tutorial
@@ -13,9 +15,11 @@ cd tutorial
 ```
 ###  opendistro-for-elasticsearch 
 ```
-cd opendistro-for-elasticsearch 
+cd ./sql-cli
+python3 setup.py install
+cd ../opendistro-for-elasticsearch 
 ./start
-cd tutotial
+cd tutorial
 ./init_data
 ./login
 ```

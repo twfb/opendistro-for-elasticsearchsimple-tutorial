@@ -1,1 +1,1 @@
-../../venv/bin/odfesql http://localhost:9200
+odfesql http://localhost:9200
