@@ -1,0 +1,1 @@
+../../venv/bin/odfesql https://localhost:9200 -u admin -w admin
